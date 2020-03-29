@@ -10,7 +10,7 @@ services:
     build: words
     image: vysappu/restapi
     deploy:
-      replicas: 5
+      replicas: 1
 
   web:
     build: web
