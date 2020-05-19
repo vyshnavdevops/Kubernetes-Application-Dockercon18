@@ -4,16 +4,16 @@ services:
 
   db:
     build: db
-    image: dockersamples/k8s-wordsmith-db
+    image: xxx/xxx  [Replace with docker hub mentioned image]
 
   words:
     build: words
-    image: dockersamples/k8s-wordsmith-api
+    image: xxx/xxx [Replace with docker hub mentioned image]
     deploy:
       replicas: 5
 
   web:
     build: web
-    image: dockersamples/k8s-wordsmith-web
+    image: xxx/xxx  [Replace with docke hub mentined image]
     ports:
      - "8080:80"
